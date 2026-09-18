@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #222;
+}
+
+header {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.welcome h2 {
+    font-size: 30px;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.card button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #172554;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+            padding: 20px;
+            }
+            #urlInput {
+    width: 70%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#checkButton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #172554;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 18px;
+}
+report-section {
+    background-color: white;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.report-section h2 {
+    text-align: center;
+}
+
+.report-section label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+report-section input,
+.report-section select,
+.report-section textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.report-section button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #172554;
+    color: white;
+    cursor: pointer;
+}
+/* Cyber Safety Tips */
+
+.tips-section {
+    background-color: white;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.tips-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.tips {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tip-card {
+    background-color: #f4f7fb;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tip-card h3 {
+    margin-top: 0;
+}
+
+.tip-card p {
+    line-height: 1.5;
+}
+/* Cyber Threat Dashboard */
+
+.dashboard-section {
+    background-color: white;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.dashboard-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dashboard-card {
+    background-color: #f4f7fb;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dashboard-card h3 {
+    margin-top: 0;
+}
+
+.dashboard-card p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+/* Risk Result Colors */
+
+.low-risk {
+    color: green;
+    border: 2px solid green;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.suspicious-risk {
+    color: orange;
+    border: 2px solid orange;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.high-risk {
+    color: red;
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 8px;
+}
+/* Recent Reports */
+
+#reportsList {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f7fb;
+    border-radius: 10px;
+}
+
+#reportsList h3 {
+    margin-top: 0;
+}
+
+#reportsList p {
+    margin: 8px 0;
+}
+        

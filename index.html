@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CyberShield - Link Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛡️ CyberShield</h1>
+        <p>Student Cyber Threat Detection & Reporting System</p>
+    </header>
+    <nav>
+    <a href="#linkChecker">🔗 Link Checker</a>
+    <a href="#reportThreat">🚨 Report Threat</a>
+    <a href="#safetyTips">🧠 Safety Tips</a>
+    <a href="#dashboard">📊 Dashboard</a>
+</nav>
+
+    <main>
+
+        <section class="welcome"
+        id="linkChecker">
+            <h2>🔗 Suspicious Link Checker</h2>
+<p>
+                Enter a website link below to check for
+                potentially suspicious characteristics.
+            </p>
+
+            <input
+                type="text"
+                id="urlInput"
+                placeholder="Enter website URL"
+            >
+
+            <button id="checkButton">
+                Analyze Link
+            </button>
+            <button id="clearButton">
+    Clear
+</button>
+
+            <div id="result"></div>
+        </section>
+        <section class="report-section"
+        id="reportThreat">
+
+    <h2>🚨 Report a Cyber Threat</h2>
+
+    <p>
+        Found something suspicious? Report it to CyberShield.
+    </p>
+
+    <form id="reportForm">
+
+        <label for="threatType">Threat Type</label>
+
+        <select id="threatType">
+            <option value="">Select threat type</option>
+            <option value="Phishing">Phishing</option>
+            <option value="Scam">Scam</option>
+            <option value="Fake Account">Fake Account</option>
+            <option value="Malicious Link">Malicious Link</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="reportedUrl">Suspicious Link</label>
+
+        <input
+            type="text"
+            id="reportedUrl"
+            placeholder="Enter suspicious link"
+        >
+
+        <label for="description">Description</label>
+
+        <textarea
+            id="description"
+            placeholder="Describe what happened"
+            rows="5"
+        ></textarea>
+
+        <button type="submit">
+            Submit Report
+        </button>
+
+    </form>
+
+    <div id="reportResult"></div>
+
+</section>
+<section class="tips-section"
+id="safetyTips">
+
+    <h2>🧠 Cyber Safety Tips</h2>
+
+    <div class="tips">
+
+        <div class="tip-card">
+            <h3>🔗 Check Links</h3>
+            <p>
+                Do not click unknown or suspicious links.
+                Check the website address carefully before opening it.
+            </p>
+        </div>
+
+        <div class="tip-card">
+            <h3>🔐 Protect Passwords</h3>
+            <p>
+                Use strong and unique passwords.
+                Never share your password with others.
+            </p>
+        </div>
+
+        <div class="tip-card">
+            <h3>📱 Enable Security</h3>
+            <p>
+                Keep your phone, computer and applications
+                updated with the latest security updates.
+            </p>
+        </div>
+
+        <div class="tip-card">
+            <h3>🚨 Report Scams</h3>
+            <p>
+                If you find a suspicious message, account or website,
+                report it instead of interacting with it.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="dashboard-section"
+id="dashboard">
+
+    <h2>📊 Cyber Threat Dashboard</h2>
+    <p class="dashboard-status">
+    🛡️ CyberShield is monitoring reported threats.
+</p>
+
+    <div class="dashboard">
+
+        <div class="dashboard-card">
+            <h3>🚨 Threats Reported</h3>
+            <p id="threatCount">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>🔗 Suspicious Links</h3>
+            <p id="linkCount">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>🎣 Phishing Reports</h3>
+            <p id="phishingCount">0</p>
+        </div>
+
+        <div class="dashboard-card">
+            <h3>💰 Scam Reports</h3>
+            <p id="scamCount">0</p>
+        </div>
+
+    </div>
+    <div id="reportsList">
+    <h3>📋 Recent Reports</h3>
+    <p>No reports yet.</p>
+</div>
+
+</section>
+
+    </main>
+
+    <footer>
+        <p>CyberShield © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+    
+
+            
